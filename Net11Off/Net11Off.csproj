@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- 2. kol: .NET 11 ama runtime async KAPALI.
+       Bu kol sayesinde ".NET 11 genel olarak mı hızlandı, yoksa runtime async mi fark yarattı?"
+       sorusunu ayırabiliyoruz. -->
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <UseRuntimeAsync>false</UseRuntimeAsync>
+  </PropertyGroup>
+</Project>

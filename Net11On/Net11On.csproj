@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- 3. kol: .NET 11 + runtime async AÇIK. Fark yaratan satır "Features" satırı. -->
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <Features>$(Features);runtime-async=on</Features>
+  </PropertyGroup>
+</Project>

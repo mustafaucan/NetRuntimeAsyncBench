@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+BenchmarkDotNet.Artifacts/
+
+# Benchmark çıktısı: sadece Markdown tabloları repoda kalsın
+results/**/*.log
+results/**/*.csv
+results/**/*.html
